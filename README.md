@@ -40,10 +40,11 @@ The algorithm implements a contrarian volatility arbitrage approach that:
 
 ### Strategy Logic
 
-1. **Long Entry**: Price below lower Bollinger Band + RSI < 30 + Uptrend confirmed
-2. **Short Entry**: Price above upper Bollinger Band + RSI > 70 + Downtrend confirmed  
-3. **Exit Signals**: Price returns to middle Bollinger Band or stop-loss triggered
-4. **Position Sizing**: 5% allocation for longs, 3% for shorts
+1. **Long Entry**: Price < Lower Bollinger Band + RSI < 30 + Uptrend confirmed (price > 50-day SMA)
+2. **Short Entry**: Price > Upper Bollinger Band + RSI > 70 + Downtrend confirmed (price < 50-day SMA)
+3. **Long Exit**: Price reaches Middle Bollinger Band or 5% stop-loss triggered
+4. **Short Exit**: Price reaches Middle Bollinger Band or 3% stop-loss triggered
+5. **Position Sizing**: 5% allocation for longs, 3% for shorts with 80% max portfolio exposure
 
 ## Technical Indicators
 

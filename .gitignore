@@ -75,3 +75,8 @@ temp/
 
 #claude
 .claude/
+
+# Competition results PDF (not needed for technical showcase)
+Lake Forest College - QuantConnect Quant League Open.pdf
+
+
