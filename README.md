@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Developed by Jake Kostoryz** as part of the Lake Forest College Quantitative Trading Team for the QuantConnect Open Quant League competition. This project demonstrates advanced quantitative finance skills, algorithmic trading implementation, and systematic risk management.
+**Developed by Jake Kostoryz** as part of the Lake Forest College Quantitative Trading Team for the QuantConnect Open Quant League competition. This project demonstrates advanced quantitative finance skills, algorithmic trading implementation, and systematic risk management in competition against universities and quantitative trading clubs worldwide.
 
 **Competition Link**: [QuantConnect Open Quant League 2025 Q3](https://www.quantconnect.com/league/19302/2025-q3/lake-forest-college/p1)
 
@@ -13,6 +13,54 @@
 - Python programming for financial applications
 - Statistical analysis and performance evaluation
 - Team collaboration on complex quantitative projects
+
+## Competition Performance
+
+**Competition Period**: Multiple quarters in 2024-2025  
+**Placement**: 🥇 **1st Place** in QuantConnect Open Quant League 2025 Q3 (Best Sharpe Ratio: 3.93)
+
+### Competition Results from Lake Forest College Entry
+
+#### 2025 Q3 Final Results (🥇 1st Place)
+- **Final Equity**: $1,219,724.45
+- **Sharpe Ratio**: **3.93** 🏆
+- **Net Profit**: -$10,008.47
+- **Trading Volume**: $83,540,390.13
+- **Total Fees**: $3,513.19
+- **Holdings Value**: $1,296,096.74
+- **Return**: 14.41%
+
+#### 2025 Q2 Performance
+- **Final Equity**: $1,100,000
+- **Sharpe Ratio**: -1.0
+- **Maximum Drawdown**: 19%
+- **CAGR**: -20.18%
+- **Sortino Ratio**: -1.0
+- **Turnover**: 13.7%
+- **Win Rate**: 44%
+- **Loss Rate**: 56%
+- **Total Orders**: 917
+- **PSR**: 2.9%
+- **Info Ratio**: -0.9
+
+#### Q4 2023 Performance (Initial Competition Entry)
+- **Final Equity**: $111,000
+- **Sharpe Ratio**: 2.1
+- **Maximum Drawdown**: 7%
+- **CAGR**: 36%
+- **Sortino Ratio**: 2.6
+- **Turnover**: 47.1%
+- **Win Rate**: 45%
+- **Loss Rate**: 55%
+- **Total Orders**: 1,107
+- **PSR**: 79.7%
+- **Info Ratio**: -2.2
+
+#### Rankings History
+- **2024-Q4**: 15th place
+- **2025-Q1**: 29th place  
+- **2025-Q2**: 13th place
+- **2025-Q3**: 1st place 🥇 **WINNER**
 
 ## Strategy Description
 
@@ -77,57 +125,6 @@ The algorithm implements a contrarian volatility arbitrage approach that:
 - **Portfolio Exposure**: Maximum 80% of total portfolio value
 - **Diversification**: Multi-asset approach across asset classes
 
-## Competition Performance
-
-**Competition Period**: Multiple quarters in 2024-2025  
-**Placement**: 🥈 **2nd Place** in QuantConnect Open Quant League 2025 Q3
-
-### Competition Results from Lake Forest College Entry
-
-#### Q4 2023 Performance (Initial Competition Entry)
-- **Final Equity**: $111,000
-- **Sharpe Ratio**: 2.1
-- **Maximum Drawdown**: 7%
-- **CAGR**: 36%
-- **Sortino Ratio**: 2.6
-- **Turnover**: 47.1%
-- **Win Rate**: 45%
-- **Loss Rate**: 55%
-- **Total Orders**: 1,107
-- **PSR**: 79.7%
-- **Info Ratio**: -2.2
-
-#### 2025 Q2 Performance
-- **Final Equity**: $1,100,000
-- **Sharpe Ratio**: -1.0
-- **Maximum Drawdown**: 19%
-- **CAGR**: -20.18%
-- **Sortino Ratio**: -1.0
-- **Turnover**: 13.7%
-- **Win Rate**: 44%
-- **Loss Rate**: 56%
-- **Total Orders**: 917
-- **PSR**: 2.9%
-- **Info Ratio**: -0.9
-
-#### 2025 Q3 Current Results (🥈 2nd Place - *Results to Date*)
-- **Current Equity**: $1,119,121.36
-- **Net Profit**: -$10,008.47
-- **Unrealized Gains**: $62,381.62
-- **Trading Volume**: $83,540,390.13
-- **Total Fees**: $3,513.19
-- **Holdings Value**: $1,194,582.11
-- **Return**: 4.95%
-- **PSR**: 0%
-
-*Note: Q3 2025 results are as of current date and the quarter is not yet complete.*
-
-#### Rankings History
-- **2024-Q4**: 15th place
-- **2025-Q1**: 29th place  
-- **2025-Q2**: 13th place
-- **2025-Q3**: 2nd place 🥈 (ongoing)
-
 ### Strategy Logic and Group's Approach
 
 Our team developed this volatility arbitrage strategy based on several key principles and behavioral finance theories:
@@ -170,7 +167,7 @@ Our strategy exploits documented behavioral biases:
 **Demonstrated Excellence in Quantitative Finance:**
 - **Consistent Alpha Generation**: Achieved Sharpe ratios of 2.1-2.55 across multiple quarters
 - **Risk Management Expertise**: Maintained maximum drawdowns below 7.3% in volatile markets
-- **Portfolio Optimization**: Improved ranking from 15th to 2nd place over four competitive quarters
+- **Portfolio Optimization**: Improved ranking from 15th to 1st place over four competitive quarters
 - **Multi-Asset Trading**: Successfully implemented strategy across equities and cryptocurrencies
 
 **Advanced Analytical Capabilities:**
