@@ -60,7 +60,7 @@
 - **2024-Q4**: 15th place
 - **2025-Q1**: 29th place  
 - **2025-Q2**: 13th place
-- **2025-Q3**: 1st place 🥇 **WINNER**
+- **2025-Q3**: 1st place 
 
 ## Strategy Description
 
